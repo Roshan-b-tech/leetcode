@@ -5,7 +5,7 @@ class ListNode {
     ListNode() {}
     ListNode(int val) { this.val = val; }
     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-
+    
     public static ListNode deserialize(String data) {
         if (data == null || data.isEmpty() || data.equals("[]")) return null;
 
